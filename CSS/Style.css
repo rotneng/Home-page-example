@@ -1,0 +1,195 @@
+body{
+    font-size: small;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    margin-bottom: 100px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+li{
+    padding: 18px;
+    font-size: 15px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.cart {
+    margin-left: 270px; 
+}
+
+.main-image{
+    margin-left: 70px;
+    border-radius: 50px;
+    margin-bottom: 35px;
+    width: 600px;
+    height: 500px;
+}
+
+.picture-1{
+    margin-left: 80px;
+    border-radius: 25px;
+    width: 120px;
+    margin-right: 30px;
+}
+
+.picture-2{
+    border-radius: 25px;
+    margin-right: 30px;
+    width: 120px;
+}
+
+.picture-3{
+    border-radius: 25px;
+    margin-right: 30px;
+    width: 120px;
+}
+
+.picture-4{
+    border-radius: 25px;
+    width: 120px;
+}
+
+.picture-1:hover {
+    opacity: 29%;
+    border-style: solid;
+    border-color: brown;
+    border-width: 8px;
+}
+
+.picture-2:hover {
+    opacity: 29%;
+    border-style: solid;
+    border-color: brown;
+    border-width: 8px;
+}
+
+.picture-3:hover {
+    opacity: 29%;
+    border-style: solid;
+    border-color: brown;
+    border-width: 8px;
+}
+
+.picture-4:hover {
+    opacity: 29%;
+    border-style: solid;
+    border-color: brown;
+    border-width: 8px;
+}
+
+
+aside{
+    flex: 1;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+article{
+    float: left;
+    display: inline-block;
+}
+
+.company{
+    color: orange;
+    font-size: large;
+}
+
+#avatar{
+    width: 25px;
+}
+
+nav{
+    border-bottom: 3px solid rgb(245, 242, 242);
+}
+
+.fifty{
+    color: orange;
+    font-weight: bolder;
+    background-color: bisque;
+    border: none;
+    margin-left: 7px ;
+}
+
+.minus{
+    color: orange;
+    border: none;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 0%;
+    margin-left: 0%;
+    font-weight: bolder;
+    font-weight: bold;
+}
+
+.zero{
+    border: none;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 0%;
+    margin-left: 0%;
+    font-weight: bolder;
+}
+
+.plus{
+    color: orange;
+    border: none;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 0%;
+    margin-left: 0%;
+    font-weight: bolder;
+}
+
+.add-to-cart{
+    color: white;
+    background-color: rgb(255, 136, 0);
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 75px;
+    padding-right: 75px;
+    font-weight: bolder;
+    border-radius: 8px;
+}
+
+
+.Collections{
+    margin-left: 100px;
+}
+
+a:hover{
+    text-decoration-line: underline;
+}
+
+h1{
+    font-size: 35px;
+    line-height: normal;
+}
+
+#price{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#text{
+    font-size: 15px;
+}
